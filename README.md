@@ -46,8 +46,8 @@ PCA is useful because it can help you understand the patterns in your data. For 
 - Now, you're ready to apply PCA to the data. First, import the PCA class from scikit-learn and create an instance of it. You'll also need to specify the number of components you want to keep:
    ```
     from sklearn.decomposition import PCA
-    # Create a PCA instance with 2 components
-    pca = PCA(n_components=2)
+    # Create a PCA instance with 3 components
+    pca = PCA(n_components=3)
    ``` 
 
 - Now, you can fit the PCA model to the training data and transform it:
